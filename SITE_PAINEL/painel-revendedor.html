@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AREA REVENDEDOR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cores.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AREA REVENDEDOR</h1>
+            <p>CRIAR CHAVES NORMAIS (ATE 30 DIAS)</p>
+        </div>
+
+        <div class="card">
+            <h3>CRIAR NOVAS CHAVES</h3>
+            
+            <div class="campo">
+                <label>VALIDADE:</label>
+                <select id="validadeRev">
+                    <option value="1">1 Dia</option>
+                    <option value="7">7 Dias</option>
+                    <option value="15">15 Dias</option>
+                    <option value="30">30 Dias</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label>QUANTIDADE:</label>
+                <select id="qtdRev">
+                    <option>1</option>
+                    <option>5</option>
+                    <option>10</option>
+                    <option>20</option>
+                </select>
+            </div>
+
+            <button class="btn" onclick="gerarChave('revendedor')">GERAR CHAVES</button>
+        </div>
+
+        <div class="card">
+            <h3>CHAVES GERADAS</h3>
+            <div id="resultadoRev" class="lista-keys"></div>
+        </div>
+
+        <button class="btn" onclick="window.location.href='index.html'">VOLTAR</button>
+    </div>
+</body>
+</html>

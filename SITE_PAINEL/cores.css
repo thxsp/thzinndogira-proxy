@@ -1,0 +1,9 @@
+:root {
+    --cor-principal: #FF0000;
+}
+
+.cor-vermelho {background: #FF0000;}
+.cor-ciano {background: #00FFFF;}
+.cor-amarelo {background: #FFFF00;}
+.cor-rosa {background: #FF00FF;}
+.cor-verde {background: #00FF00;}
