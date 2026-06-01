@@ -5,6 +5,16 @@
     <key>PayloadContent</key>
     <array>
         <dict>
+            <key>PayloadType</key>
+            <string>com.apple.proxy.http</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.thzinndogira.proxy.001</string>
+            <key>PayloadUUID</key>
+            <string>550e8400-e29b-41d4-a716-446655441234</string>
+            <key>PayloadDisplayName</key>
+            <string>THZINN DO GIRA</string>
             <key>HTTPEnable</key>
             <true/>
             <key>HTTPServer</key>
@@ -13,16 +23,8 @@
             <integer>443</integer>
             <key>HTTPAuthentication</key>
             <false/>
-            <key>PayloadType</key>
-            <string>com.apple.proxy.http</string>
-            <key>PayloadVersion</key>
-            <integer>1</integer>
-            <key>PayloadIdentifier</key>
-            <string>com.proxy.thzinn</string>
-            <key>PayloadUUID</key>
-            <string>550e8400-e29b-41d4-a716-446655440000</string>
-            <key>PayloadDisplayName</key>
-            <string>THZINN</string>
+            <key>HTTPProxyEnabled</key>
+            <true/>
         </dict>
     </array>
     <key>PayloadType</key>
@@ -30,10 +32,12 @@
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadIdentifier</key>
-    <string>com.proxy.thzinn.config</string>
+    <string>com.thzinndogira.config.001</string>
     <key>PayloadUUID</key>
-    <string>550e8400-e29b-41d4-a716-446655440001</string>
+    <string>550e8400-e29b-41d4-a716-446655441235</string>
     <key>PayloadDisplayName</key>
     <string>THZINN DO GIRA</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
 </dict>
 </plist>
